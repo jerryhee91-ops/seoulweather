@@ -131,7 +131,7 @@ try:
             yaxis_title="평균기온 (°C)",
             xaxis=dict(tickformat="d", range=[1895, 2105]),
             hovermode="x unified",
-            legend=dict(orient="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
+            legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
             margin=dict(l=20, r=20, t=40, b=20)
         )
 
